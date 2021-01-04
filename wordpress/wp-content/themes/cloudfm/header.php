@@ -31,13 +31,12 @@
          <div class="header-top">
             <div class="container">
                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					
-                     <a class="logo" href="index.html">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Cloudfm logo">
-                     </a>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+
+                        <?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
+                     
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                      <a href="javascript:void(0);" onclick="popNavigation()" class="burger-menu">
                          <span></span>
                          <span></span>
@@ -53,9 +52,7 @@
                <div class="container-fluid">
                    <div class="row">
                        <div class="col-6">
-                           <a class="logo" href="index.html">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Cloudfm logo">
-                     </a>
+                            <?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
                        </div>
                        <div class="col-6">
                            <div class="header-right pull-right">
